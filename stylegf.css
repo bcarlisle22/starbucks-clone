@@ -1,0 +1,389 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nvaigation shared */
+
+.nav-bar a{
+    text-decoration: none;
+}
+
+.nav-bar a:hover{
+    color: #017143
+}
+
+/*right side nav  shared nav */
+.material-symbols-outlined{
+    color: black;
+    vertical-align: -8px;
+}
+.material-symbols-outlined:hover{
+    color:#017143;
+}
+.right-btns a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    letter-spacing: 1px;
+}
+
+
+.right-btns a:hover{
+    color:#017143;
+}
+.right-btns button{
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    height: 35px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    width: 6rem;
+    margin: 0px 5px;
+    border: 1px solid black
+}
+.right-btns #homebtn:hover{
+    opacity: 0.5;
+}
+.right-btns #homebtntwo:hover{
+    opacity: 0.5;
+}
+
+
+#homebtn{
+    color: black;
+    background-color: white;
+}
+#homebtn:hover{
+    opacity: 40;
+}
+
+#homebtntwo{
+    color: white;
+    background-color: black;
+}
+#homebtntwo:hover{
+    opacity: 20;
+}
+
+hr{
+    height:2px;
+    border: 2px;
+    background-color: rgb(0,0,0,10%);
+}
+
+
+
+/* gift cards page 
+
+
+/* gift card page nav*/
+
+#gcpg #logo{
+    width: 45%;
+    padding-left: 50%;
+}
+#gcpg .nav-bar{
+    top: 0;
+    display: flex;
+    padding-top: 25px;
+    margin-left: 0px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid rgb(0,0,0,10%)
+
+}
+#gcpg .nav-bar li{
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-size: 14px;    
+}
+#gcpg .nav-bar ul{
+    margin-right: 55%;
+}
+#gcpg hr{
+    color:grey;
+}
+/* gift cards start */
+#sectionone{
+    margin-top: 7%;
+    margin-bottom: 30px;
+    
+}
+
+#see{
+    margin-left: 87%;
+    font-size: 15px;
+}
+
+
+/* green banner in mid*/
+
+.greenbanner{
+    background-color: #D4E9E2;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 45px;
+}
+.banner-content{
+    margin-left: 8%;
+}
+.banner-content h1{
+    font-size: 23px;
+}
+#earn{
+    margin-left: 15px;
+    color: #00000094;
+    font-size: 16px;
+    margin-right: 3%;
+}
+/* buttons on green banner */
+
+.banner-content button{
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    height: 35px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    width: 10rem;
+    margin: 0px 5px;
+    border: 1px solid black;    
+}
+#add{
+    background-color: transparent;
+
+}
+#check{
+    background-color: black;
+    color: white;
+    margin-right: 40%;
+}
+#greentandc{
+    color: #006241;
+    font-weight: 500;
+    font-size: 15px;
+}
+#greentandc:hover{
+    cursor: pointer;
+}
+.giftcardsone a{
+    color: #006241;
+    text-decoration: none;
+}
+.giftcardsone h1{
+    margin-left: 10%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.gftcardimg{
+    margin-left: 10%;
+}
+.gftcardimg img{
+    border-radius: 15px;
+    margin-right: 20px;
+    transition: ease-in-out 0.5s;
+}
+
+.gftcardimg img:hover{
+    transition: ease-in-out 0.5s;
+    transform:translateY(15px);
+}
+/* bottom banner*/
+
+.giftcardcontainer{
+    margin-top: 1.5%;
+    background-color: rgb(0,0,0,2%);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.gccontainer{
+    margin-left: 6%;
+}
+.gccontainer img{
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+
+.gfcontent h1{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.gfcontent p{
+    font-weight: 300;
+    color: rgb(0,0,0,65%);
+    font-size: 15px;
+}
+.gfcontent button{
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    height: 35px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    width: 7rem;
+    border: 1px solid black;
+    margin-top: 15px;
+    background-color: transparent;
+    
+}
+#gcsupport{
+    background-color: rgb(0,0,0, 5%);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 3%;
+}
+.supportcontent button{
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    height: 35px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    width: 8rem;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-right: 8px;
+    
+}
+#tandc {
+    width: 15em;
+}
+.supportcontent{
+    margin-left: 8%;
+}
+.supportcontent h1{
+    font-size: 14px;
+    font-weight: 600;
+}
+.supportcontent p{
+    font-size: 15px;
+    font-weight: 300;
+}
+/* footer */
+
+/* footer all pages */
+
+.footerlinks{
+    width: 15%;
+    float: left;
+    margin-left: 4%;
+}
+
+.footerlinks h1{
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 3%;
+    margin-left: 15%;
+    margin-top: 55px;
+}
+.footerlinks ul{
+    padding-bottom: 3%;
+}
+
+.footerlinks li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.footerlinks a{
+    color: rgb(0,0,0,55%);
+    text-decoration: none;
+}
+.footerlinks a:hover{
+    color: black;
+}
+
+.ftr{
+    padding-bottom: 25%;
+}
+/* footer line*/
+
+footer hr{
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+/*  footer icons*/
+.footer-icns{
+    padding-left: 7%;
+    padding-bottom: 3%;
+}
+
+
+.footer-icns ul, a{
+    list-style: none;
+    color: black;
+}
+.footer-icns a:hover{
+    text-decoration: underline;
+}
+.ftrimgs{
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 40%;
+}
+.ftrimgs img{
+    margin-right:2%;
+}
+
+.ftrimgs img:hover{
+    cursor: pointer;
+}
+.footer-icns a{
+    margin: 5px 15px;
+    text-decoration: none;
+}
+.footer-icns li{
+    color: rgb(0,0,0,55%);
+    display: inline;
+}
+
+.footer-icns p{
+    color:rgb(113, 110, 110);
+    padding-left: 3%;
+    font-size: 14px
+}
+
+
+/* featured page */
+
+#featured img{
+    margin-bottom: 3%;
+}
+/* red cup page */
+
+#redcup{
+    margin-bottom: 15%;
+}
+/* affection page */
+
+#affectionpg{
+    margin-bottom: 15%;
+}
+
+/* anytime page */
+
+#anytime{
+    margin-bottom: 15%;
+}
