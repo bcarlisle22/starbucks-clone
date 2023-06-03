@@ -1,12 +1,11 @@
 # StarbucksProject
 
 
-This is a Starbucks Landing Page Replica
+STARBUCKS CLONE
 
-Built using:
 - HTML
 - CSS
-- Javascript
+- JAVASCRIPT
 
 <br>
 <br>
