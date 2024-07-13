@@ -1,11 +1,10 @@
+Starbucks Landing Page Clone
+<hr>
+<br>
 
+``HTML`` | ``CSS`` | ``JavaScript``
 
-
-STARBUCKS CLONE
-
-- HTML
-- CSS
-- JAVASCRIPT
+<br>
 
 <br>
 <br>
